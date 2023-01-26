@@ -321,7 +321,7 @@ class Point
   
 ![shared-memory-cpp-white](https://user-images.githubusercontent.com/35624178/214884807-c62e7fef-7f43-449b-b3f7-ce9de026613b.png)  
   
-- Извикване на деструктор  
+- Извикване на деструктор за копието  
     
   ![shared-memory-corrupt](https://user-images.githubusercontent.com/35624178/214890338-bfd0f98f-d713-46f3-878c-fd0ba11a91e3.png)
 
