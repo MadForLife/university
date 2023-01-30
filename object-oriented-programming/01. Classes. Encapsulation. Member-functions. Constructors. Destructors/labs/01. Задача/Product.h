@@ -5,11 +5,11 @@ class Product
 {
 	public:
 		Product();
-		Product(char* name, char* producer, double price, int width, int height, int depth);
+		Product(const char* name, const char* producer, double, int, int, int);
 		~Product();
 
-		int setName(char* name);
-		int setProducer(char* producer);
+		int setName(const char* name);
+		int setProducer(const char* producer);
 		int setPrice(double price);
 		int setWidth(int width);
 		int setHeight(int height);
@@ -20,15 +20,15 @@ class Product
 		double getPrice() const { return price; };
 		int getWidth() const { return width; };
 		int getHeight() const { return height; };
-		int setDepth() const { return depth; };
+		int getDepth() const { return depth; };
 
 		int print() const;
-
+		
 	private:
 		char* name;
 		char* producer;
+
 		double price;
 		int width, height, depth;
 };
-
-#endif // !Product_hpp
+#endif // !Product_h
